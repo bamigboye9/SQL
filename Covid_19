@@ -1,5 +1,4 @@
---View table
-```SQL 
+```SQL
 SELECT *
 FROM dbo.covid_deaths;
 
