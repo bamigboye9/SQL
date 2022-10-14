@@ -1,4 +1,4 @@
-
+```
 --View table
 SELECT *
 FROM dbo.covid_deaths;
