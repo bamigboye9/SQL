@@ -1,6 +1,6 @@
 # Selecting few coloumns from the tables
 SELECT pickup_datetime, fare_amount,tip_amount
-FROM `bigquery-public-data.new_york_taxi_trips.tlc_green_trips_2018`  
+FROM bigquery-public-data.new_york_taxi_trips.tlc_green_trips_2018  
 LIMIT 1000;
 
 # Extracting Hours from dattime_pickup columns and counting the toatal number of trips per hour
