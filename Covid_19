@@ -1,4 +1,5 @@
-```SQL
+--- View table
+```sql
 SELECT *
 FROM dbo.covid_deaths;
 
@@ -175,19 +176,5 @@ WHERE location = 'Nigeria';
 --JOIN dbo.covid_vaccs AS v
 --	ON d.location = v.location 
 --	AND d.date = v.date
---WHERE d.continent IS NOT NULL;
+--WHERE d.continent IS NOT NULL
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
