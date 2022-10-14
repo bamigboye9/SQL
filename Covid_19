@@ -1,5 +1,5 @@
 --View table
-```sql
+```SQL ---
 SELECT *
 FROM dbo.covid_deaths;
 ```
