@@ -1,4 +1,4 @@
-```
+
 --View table
 SELECT *
 FROM dbo.covid_deaths;
@@ -33,7 +33,6 @@ ORDER BY location, date;
 SELECT location, date, total_cases, population, (total_cases/population) * 100 AS infection_rate
 FROM dbo.covid_deaths
 WHERE location = 'Nigeria'
-```
 ORDER BY date;
 
 -- 5 Worldwide > Countries with Highest Infection Rate compared to Population
@@ -179,7 +178,7 @@ WHERE location = 'Nigeria';
 --	AND d.date = v.date
 --WHERE d.continent IS NOT NULL;
 
-
+```
 
 
 
